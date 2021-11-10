@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:paddingVertical="10dp"
+    android:layout_height="80dp">
 
     <ImageView
         android:id="@+id/iv_song"
@@ -24,6 +25,8 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:textSize="8pt"
+            android:textStyle="bold"
             android:id="@+id/tv_song"
             android:layout_width="match_parent"
             android:layout_height="30dp"
@@ -32,6 +35,7 @@
             android:textColor="@color/color_name_song" />
 
         <TextView
+            android:textSize="6pt"
             android:id="@+id/tv_singer"
             android:layout_width="match_parent"
             android:layout_height="30dp"
@@ -43,6 +47,7 @@
     <ImageView
         android:id="@+id/iv_is_favorite"
         android:layout_width="60dp"
+        android:padding="15dp"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

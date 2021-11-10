@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         SongAdapter adapter = new SongAdapter(songs, this);
         lvViewSong.setAdapter(adapter);
 
-        // LView OnClickItem
         lvViewSong.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
